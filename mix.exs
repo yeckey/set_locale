@@ -34,8 +34,8 @@ defmodule SetLocale.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.3.0"},
-      {:gettext, "~> 0.13.1"},
+      {:phoenix, ">= 1.3.0 and < 1.5.0"},
+      {:gettext, ">= 0.13.1 and < 0.17.0"},
       {:earmark, "~>1.2.0", only: :dev},
       {:ex_doc, "~>0.16.4", only: :dev},
       {:excoveralls, "~> 0.7.3", only: :test},
